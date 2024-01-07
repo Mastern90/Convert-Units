@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Mulish:wght@500;600;700&display=swap" rel="stylesheet">
+    <title>Project</title>
+  </head>
+  <body>
+    <main>
+      <div class="title-case">
+        <h1 class="title">Metric/Imperial Unit Conversion</h1>
+        <input type="number" id="input"
+        class="input"
+        type="number"
+        name="convert-value"
+        title="Enter any number between 1 and 10000"
+        min="0" max="10000"/>
+        <button 
+        class="convert-btn"
+        id='convert-btn'>Convert</button>
+      </div>
+      <div class="convert-case">
+        <div class="result-case">
+          <h3>Length (Meter/Feet)</h3>
+          <input id="length" 
+          placeholder="meters = feet | feet = meters"
+          readonly>
+        </div>
+        <div class="result-case">
+          <h3>Volume (Liters/Gallons)</h3>
+          <input id="volume" 
+          placeholder="liters = gallons | gallons = liters"
+          readonly>
+        </div>
+        <div class="result-case">
+          <h3>Mass (Kilograms/Pounds)</h3>
+          <input id="mass"
+          placeholder="mass = kilograms | kilograms = mass"
+          readonly>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
