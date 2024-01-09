@@ -38,7 +38,7 @@ body {
   font-weight: 700;
   width: 115px;
   line-height: 60px;
-  margin: 10px auto;
+  margin: 1.05vh auto;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -58,7 +58,7 @@ body {
 }
 
 .convert-case {
-  margin-top: 50px;
+  margin-top: 6vh;
 }
 
 .result-case {
@@ -74,8 +74,8 @@ body {
   border: 7px groove #6457A6;
 }
 .result-case input {
-  width: 720px;
-  height: 30px;
+  width: 80vw;
+  height: 3.15vh;
   text-align: center;
   font-size: 22px;
   font-family: 'Happy Monkey', system-ui;
