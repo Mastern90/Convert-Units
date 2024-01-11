@@ -99,12 +99,16 @@ nav {
   font-family: 'Happy Monkey', system-ui;
 }
 
-.img {
-  background: white;
+.arrow {
+  background: black;
+  color: #76E5FC;
+  font-weight: 700;
   width: 60px;
+  height: 70px;
   border-radius: 100%;
-  border: 3px solid white;
+  border: 3px solid #6457A6;
   position: fixed;
   left: 90vw;
   top: 90vh;
+  cursor: pointer;
 }
