@@ -10,6 +10,12 @@
   const mass_kg_lb = document.getElementById('mass_kg_lb')
   const mass_g_mg = document.getElementById('mass_g_mg')
 
+  const unitListBtn = document.getElementById('unit-list-btn')
+
+
+unitListBtn.addEventListener('click', function() {
+  document.getElementById('drop-list').classList.toggle('show')
+})
 
 convertBtn.addEventListener('click', function() {
   let sum_m_ft = input.value * 3.28084
@@ -38,4 +44,16 @@ convertBtn.addEventListener('click', function() {
   mass_g_mg.value = `${input.value} grams = ${sum_g_mg} milligrams | ${input.value} milligrams = ${sum_mg_g.toFixed(3)} grams`
 })
 
+window.onclick = function(event) {
+  if (!event.target.matches('.unit-list-btn')) {
+    let dropdowns = document.getElementsByClassName("drop-content");
+    let i;
+    for (i = 0; i < dropdowns.length; i++) {
+      let openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
  
