@@ -8,6 +8,7 @@ body {
   text-align: center;
 }
 
+
 nav {
   position: relative;
   display: inline;
@@ -101,6 +102,10 @@ nav {
   box-shadow: 0 0 5px 10px #fff;
 }
 
+.convert-case {
+  margin-top: 6vh;
+}
+
 .sections{
   border: 5px solid rgb(255, 255, 255);
   padding: 20px;
@@ -115,9 +120,6 @@ nav {
   border-bottom: 2px solid #76E5FC;
 }
 
-.convert-case {
-  margin-top: 6vh;
-}
 
 .result-case {
   color: #76E5FC;
